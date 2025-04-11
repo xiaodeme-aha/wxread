@@ -23,13 +23,27 @@ curl_str = os.getenv('WXREAD_CURL_BASH')
 
 # headers、cookies是一个省略模版，本地或者docker部署时对应替换
 cookies = {
-    'RK': 'dRG1A0xWYe',
-    'ptcz': '46c87074f1768dd4dc9208759f7e1e9b33957a37e075464229f7f2032d89e6ab',
-    'pac_uid': '0_G54iGJTxzSd5C',
-    'iip': '0',
-    '_qimei_uuid42': '18b0c090e0d1003260a4d70e82f8e7408b3a2b8cec',
-    'wr_avatar': 'https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FPiajxSqBRaEKGGFCck8NbhzIHxiaJ2D1cWpNYGXrb6SYeXuofqfTNvYcsfX9q6USib2ibTQdzT5zUkxfiasN0xq3YsSDZ45SzFzriaLYlKVMlmPuygSRciaDZ2FAg%2F132',
-    'wr_gender': '0',
+        'ptcz'="46c87074f1768dd4dc9208759f7e1e9b33957a37e075464229f7f2032d89e6ab";
+        ' pgv_pvid'="2480733312"; 
+        'iip'="0"; 
+        '_qimei_q36'="";
+        ' _qimei_h38'="b885884691805806f33b914f02000005617b08";
+        ' fqm_pvqid'="b37bf2ac-dd28-4d5d-b490-327809e9e53a";
+        ' RK'="dRG1A0xWYe";
+        ' pac_uid'="0_G54iGJTxzSd5C";
+        ' _qimei_fingerprint'="052224ffcf4ccad1033b54a40970480d"; 
+        'suid'="user_0_G54iGJTxzSd5C";
+        ' _qimei_uuid42'="18b0c090e0d1003260a4d70e82f8e7408b3a2b8cec"; 
+        'wr_pf'="0"; 
+        'wr_vid'="366983741";
+        ' wr_rt'="web%401uufALoC5TrprLnR785_AL"; 
+        'wr_localvid'="41132980815dfba3d411d59"; 
+        'wr_name'="%E6%B2%89";
+        ' wr_avatar'="https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FPiajxSqBRaEKGGFCck8NbhzIHxiaJ2D1cWpNYGXrb6SYeXuofqfTNvYcsfX9q6USib2ibTQdzT5zUkxfiasN0xq3YsSDZ45SzFzriaLYlKVMlmPuygSRciaDZ2FAg%2F132";
+        ' wr_gender'="0";
+        ' current-city-name'="sh"; 
+        'wr_skey'="YSMENMvs"; 
+        'wr_fp'="3291908732";
 }
 
 headers = {
