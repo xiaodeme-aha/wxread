@@ -95,4 +95,4 @@ def convert(curl_command):
     return headers, cookies
 
 
-headers, cookies = convert(curl_str) if curl_str else (h
+headers, cookies = convert(curl_str) if curl_str else (headers, cookies)
