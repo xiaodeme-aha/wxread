@@ -35,8 +35,8 @@ cookies = {
 headers = {
     'accept': 'application/json, text/plain, */*',
     'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ko;q=0.5',
-    'baggage': 'sentry-environment=production,sentry-release=dev-1744284348588,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=fd17cb15d8574cb98065500f86906b86',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0',
+    'baggage': 'sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=1ff5a0725f8841088b42f97109c45862',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0',
 }
 
 
@@ -44,21 +44,20 @@ headers = {
 建议保留区域|默认读三体，其它书籍自行测试时间是否增加
 """
 data = {
-    "appId": "wb182564874663h706005038",
-    "b": "69e32bf05dd69569e0a3dc9",
-    "c": "c9f326d018c9f0f895fb5e4",
-    "ci": 8,
-    "co": 407,
-    "sm": "THE WEALTH OF NATION",
-    "pr": 0,
-    "rt": 8,
-    "ts": 1744336538921,
-    "rn": 684,
-    "sg": "28938d7be97e9c73733b87d88b4dc8af6c1223577b33cc8c69edc95686f2d8cb",
-    "ct": 1744336538,
-    "ps": "271322a07a65a573g013f77",
-    "pc": "50e32e207a65a573g016da8",
-    "s": "b67080f4",
+    "appId": "wb182564874663h152492176",
+    "b": "ce032b305a9bc1ce0b0dd2a",
+    "c": "7cb321502467cbbc409e62d",
+    "ci": 70,
+    "co": 0,
+    "sm": "[插图]第三部广播纪元7年，程心艾AA说",
+    "pr": 74,
+    "rt": 30,
+    "ts": 1727660516749,
+    "rn": 31,
+    "sg": "991118cc229871a5442993ecb08b5d2844d7f001dbad9a9bc7b2ecf73dc8db7e",
+    "ct": 1727660516,
+    "ps": "b1d32a307a4c3259g016b67",
+    "pc": "080327b07a4c3259g018787",
 }
 
 
@@ -96,4 +95,4 @@ def convert(curl_command):
     return headers, cookies
 
 
-headers, cookies = convert(curl_str) if curl_str else (headers, cookies)
+headers, cookies = convert(curl_str) if curl_str else (h
