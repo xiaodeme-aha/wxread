@@ -24,19 +24,19 @@ curl_str = os.getenv('WXREAD_CURL_BASH')
 # headers、cookies是一个省略模版，本地或者docker部署时对应替换
 cookies = {
     'RK': 'oxEY1bTnXf',
-    'ptcz': '53e3b35a9486dd63c4d06430b05aa169402117fc407dc5cc9329b41e59f62e2b',
-    'pac_uid': '0_e63870bcecc18',
+    'ptcz': '46c87074f1768dd4dc9208759f7e1e9b33957a37e075464229f7f2032d89e6ab',
+    'pac_uid': '0_G54iGJTxzSd5C',
     'iip': '0',
-    '_qimei_uuid42': '183070d3135100ee797b08bc922054dc3062834291',
-    'wr_avatar': 'https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FeEOpSbFh2Mb1bUxMW9Y3FRPfXwWvOLaNlsjWIkcKeeNg6vlVS5kOVuhNKGQ1M8zaggLqMPmpE5qIUdqEXlQgYg%2F132',
+    '_qimei_uuid42': '052224ffcf4ccad1033b54a40970480d',
+    'wr_avatar': 'https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FPiajxSqBRaEKGGFCck8NbhzIHxiaJ2D1cWpNYGXrb6SYeXuofqfTNvYcsfX9q6USib2ibTQdzT5zUkxfiasN0xq3YsSDZ45SzFzriaLYlKVMlmPuygSRciaDZ2FAg%2F132',
     'wr_gender': '0',
 }
 
 headers = {
     'accept': 'application/json, text/plain, */*',
     'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ko;q=0.5',
-    'baggage': 'sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=1ff5a0725f8841088b42f97109c45862',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0',
+    'baggage': 'sentry-environment=production,sentry-release=dev-1744284348588,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=fd17cb15d8574cb98065500f86906b86',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0',
 }
 
 
@@ -44,21 +44,20 @@ headers = {
 建议保留区域|默认读三体，其它书籍自行测试时间是否增加
 """
 data = {
-    "appId": "wb182564874663h1484727348",
-    "b": "276323e0813ab90a5g0144d7",
-    "c": "a87322c014a87ff679a21ea",
-    "ci": 4,
-    "co": 378,
-    "sm": "一有一句成语叫胆小如鼠，说的就是我的故事",
+    "appId": "wb182564874663h706005038",
+    "b": "1b5329305cc7881b5f2da82",
+    "c": "e3632bd0222e369853df322",
+    "ci": 3,
+    "co": 350,
+    "sm": "受佐伊·安德森(1986—2010)之启",
     "pr": 0,
-    "rt": 4,
-    "ts": 1744249345195,
-    "rn": 843,
-    "sg": "6edf9e43af90ae7ad1055fa4a71e8b3a193b0ebbbe8947ff162c3b271584bf87",
-    "ct": 1744249345,
-    "ps": "28332f607a658365g0118c4",
-    "pc": "2c632b307a658365g013df2",
-    "s":"6d94bf58",
+    "rt": 8,
+    "ts": 1744335045757,
+    "rn": 84,
+    "sg": "4c1cdf503cc9e89444805281f53a594a4a2f1aa27057404222f2be867e3b1833",
+    "ct": 1744335045,
+    "ps": "339326b07a65a4dfg013798",
+    "pc": "531327d07a65a4dfg01641e",
 }
 
 
